@@ -139,23 +139,6 @@ export default function LandingPage() {
           carouselMode="buttons"
           plans={[
             {
-              id: "deluxe",
-              price: "$189/night",
-              name: "Deluxe Room",
-              buttons: [
-                { text: "Book Now", onClick: () => console.log('Deluxe booking') },
-                { text: "View Details", onClick: () => console.log('Deluxe details') }
-              ],
-              features: [
-                "King or twin beds",
-                "City or garden view",
-                "Premium bedding and pillows",
-                "Marble bathroom with bath and shower",
-                "Complimentary WiFi and premium channels",
-                "Mini bar and work desk"
-              ]
-            },
-            {
               id: "suite",
               badge: "Most Popular",
               badgeIcon: Sparkles,
@@ -173,6 +156,23 @@ export default function LandingPage() {
                 "Priority room service",
                 "Access to executive lounge",
                 "Welcome amenities"
+              ]
+            },
+            {
+              id: "deluxe",
+              price: "$189/night",
+              name: "Deluxe Room",
+              buttons: [
+                { text: "Book Now", onClick: () => console.log('Deluxe booking') },
+                { text: "View Details", onClick: () => console.log('Deluxe details') }
+              ],
+              features: [
+                "King or twin beds",
+                "City or garden view",
+                "Premium bedding and pillows",
+                "Marble bathroom with bath and shower",
+                "Complimentary WiFi and premium channels",
+                "Mini bar and work desk"
               ]
             },
             {
